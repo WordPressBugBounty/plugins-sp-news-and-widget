@@ -13,6 +13,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 } ?>
 
 <div id="wpnw_unlock_tabs" class="wpnw-vtab-cnt wpnw_unlock_tabs wpnw-clearfix">
+	
+	<div class="wpnw-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( WPNW_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WPNW_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div>
+
 	<h2 style="font-size: 24px; text-align: center; color: #6c63ff;">Bundle Deal Details</h2>
 	<table class="wpos-plugin-list">
 		<thead>
@@ -85,11 +90,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</thead>
 	</table>
 
-	<div class="wpnw-favourite-section">
+	<!-- <div class="wpnw-favourite-section">
 		<h3 class="wpnw-blue wpnw-favourite-heading">Use Essential Plugin Bundle</h3>
 		<h1 class="wpnw-favourite-sub-heading">With Your Favourite Page Builders</h1>
-		<span><i class="dashicons dashicons-yes"></i> = <img src="<?php echo esc_url( WPNW_URL ); ?>assets/images/essential-logo-small.png" width="15" height="15" /> Essential Plugin Bundle contain many more layouts and designs</span>
-	</div>
+		<span><i class="dashicons dashicons-yes"></i> = <img src="<?php //echo esc_url( WPNW_URL ); ?>assets/images/essential-logo-small.png" width="15" height="15" /> Essential Plugin Bundle contain many more layouts and designs</span>
+	</div> -->
 
 	<!-- <div class="wpnw-deal-offer-wrap">
 		<div class="wpnw-deal-offer"> 
@@ -105,15 +110,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 	</div> -->
 
-	<div class="wpnw-deal-offer-wrap">
+	<!-- <div class="wpnw-deal-offer-wrap">
 		<div class="wpnw-deal-offer"> 
 			<div class="wpnw-inn-deal-offer">
 				<h3 class="wpnw-inn-deal-hedding"><span>Try WP News and Scrolling Widgets Pro</span> in Essential Bundle Free For 5 Days.</h3>
 			</div>
 			<div class="wpnw-deal-free-offer">
-				<a href="<?php echo esc_url( WPNW_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wpnw-sf-free-btn"><span class="dashicons dashicons-cart"></span>Try Pro For 5 Days Free</a>
+				<a href="<?php //echo esc_url( WPNW_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wpnw-sf-free-btn"><span class="dashicons dashicons-cart"></span>Try Pro For 5 Days Free</a>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 </div>

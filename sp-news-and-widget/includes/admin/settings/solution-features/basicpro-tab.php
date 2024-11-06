@@ -12,8 +12,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 } ?>
 <div id="wpnw_basic_tabs" class="wpnw-vtab-cnt wpnw_basic_tabs wpnw-clearfix">
-	<h3 style="text-align:center">Compare <span class="wpnw-blue">"WP News and Scrolling Widgets"</span> Free VS Pro</h3>
-
 	<!-- <div class="wpnw-deal-offer-wrap">
 		<div class="wpnw-deal-offer"> 
 			<div class="wpnw-inn-deal-offer">
@@ -28,16 +26,22 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 	</div> -->
 
-	<div class="wpnw-deal-offer-wrap">
+	<!-- <div class="wpnw-deal-offer-wrap">
 		<div class="wpnw-deal-offer"> 
 			<div class="wpnw-inn-deal-offer">
 				<h3 class="wpnw-inn-deal-hedding"><span>Try WP News and Scrolling Widgets Pro</span> in Essential Bundle Free For 5 Days.</h3>
 			</div>
 			<div class="wpnw-deal-free-offer">
-				<a href="<?php echo esc_url( WPNW_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wpnw-sf-free-btn"><span class="dashicons dashicons-cart"></span>Try Pro For 5 Days Free</a>
+				<a href="<?php //echo esc_url( WPNW_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wpnw-sf-free-btn"><span class="dashicons dashicons-cart"></span>Try Pro For 5 Days Free</a>
 			</div>
 		</div>
+	</div> -->
+
+	<div class="wpnw-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( WPNW_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WPNW_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
 	</div>
+
+	<h3 style="text-align:center">Compare <span class="wpnw-blue">"WP News and Scrolling Widgets"</span> Free VS Pro</h3>
 
 	<table class="wpos-plugin-pricing-table">
 		<colgroup></colgroup>
@@ -183,6 +187,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</tbody>
 	</table>
 
+	<div class="wpnw-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( WPNW_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WPNW_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div>
+
 	<!-- <div class="wpnw-deal-offer-wrap">
 		<div class="wpnw-deal-offer"> 
 			<div class="wpnw-inn-deal-offer">
@@ -197,15 +205,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 	</div> -->
 
-	<div class="wpnw-deal-offer-wrap">
+	<!-- <div class="wpnw-deal-offer-wrap">
 		<div class="wpnw-deal-offer"> 
 			<div class="wpnw-inn-deal-offer">
 				<h3 class="wpnw-inn-deal-hedding"><span>Try WP News and Scrolling Widgets Pro</span> in Essential Bundle Free For 5 Days.</h3>
 			</div>
 			<div class="wpnw-deal-free-offer">
-				<a href="<?php echo esc_url( WPNW_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wpnw-sf-free-btn"><span class="dashicons dashicons-cart"></span>Try Pro For 5 Days Free</a>
+				<a href="<?php //echo esc_url( WPNW_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wpnw-sf-free-btn"><span class="dashicons dashicons-cart"></span>Try Pro For 5 Days Free</a>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 </div>

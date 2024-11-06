@@ -5,7 +5,7 @@
 * Text Domain: sp-news-and-widget
 * Domain Path: /languages/
 * Description: A simple News and three widgets(static, scrolling and with thumbs) plugin. Also work with Gutenberg shortcode block.
-* Version: 5.0.1
+* Version: 5.0.2
 * Author: WP OnlineSupport, Essential Plugin
 * Author URI: https://www.essentialplugin.com/wordpress-plugin/sp-news-and-scrolling-widgets/
 * Contributors: WP OnlineSupport
@@ -15,7 +15,7 @@
 */
 
 if( ! defined( 'WPNW_VERSION' ) ) {
-	define( 'WPNW_VERSION', '5.0.1' ); // Version of plugin
+	define( 'WPNW_VERSION', '5.0.2' ); // Version of plugin
 }
 if( ! defined( 'WPNW_DIR' ) ) {
 	define( 'WPNW_DIR', dirname( __FILE__ ) ); // Plugin dir
@@ -46,11 +46,11 @@ if( ! defined( 'WPNW_PLUGIN_LINK_UPGRADE' ) ) {
 }
 
 if( ! defined( 'WPNW_PLUGIN_BUNDLE_LINK' ) ) {
-	define('WPNW_PLUGIN_BUNDLE_LINK', 'https://www.wponlinesupport.com/checkout/?edd_action=add_to_cart&download_id=14791&edd_options[price_id]=7&wpos_cart_flush=1&utm_source=WP&utm_medium=News&utm_campaign=Welcome-Screen'); // Plugin link
+	define('WPNW_PLUGIN_BUNDLE_LINK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=News&utm_campaign=Welcome-Screen'); // Plugin link
 }
 
 if( ! defined( 'WPNW_PLUGIN_LINK_UNLOCK' ) ) {
-	define('WPNW_PLUGIN_LINK_UNLOCK', 'https://www.wponlinesupport.com/checkout/?edd_action=add_to_cart&download_id=14791&edd_options[price_id]=7&wpos_cart_flush=1&utm_source=WP&utm_medium=News&utm_campaign=Features-PRO'); // Plugin link
+	define('WPNW_PLUGIN_LINK_UNLOCK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=News&utm_campaign=Features-PRO'); // Plugin link
 }
 
 /**

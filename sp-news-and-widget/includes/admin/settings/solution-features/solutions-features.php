@@ -20,6 +20,8 @@ $tab = isset( $_GET['tab'] ) ? '#'.$_GET['tab'] : '#wpnw_welcome_tabs';
 	<h2  class="wpos-main-heading-tittle">Welcome to <span class="wpnw-blue">WP News and Scrolling Widgets</span></h2>
 	<style>
 
+		.wpos-plugin-pricing-table{margin-bottom: 20px;}
+
 		/**** Solution Features CSS ****/
 		.wpos-solutions-features-page{width: 90%; margin: 0 auto; }
 		.wpos-main-heading-tittle{font-size:24px; text-align: center;}
@@ -51,7 +53,6 @@ $tab = isset( $_GET['tab'] ) ? '#'.$_GET['tab'] : '#wpnw_welcome_tabs';
 		/***free 5 day offer new CSS END***/
 
 		.wpnw-inn-deal-hedding{font-size: 22px;}
-		
 
 		.wpnw-inn-deal-sub-hedding{font-size: 18px;}
 		.wpnw-inn-deal-sub-hedding span{font-size:20px; color: #6c63ff;}

@@ -179,7 +179,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 									<li><?php esc_html_e('100% Multi language', 'sp-news-and-widget'); ?></li>
 								</ul>
 								<div class="upgrade-to-pro"><?php esc_html_e( 'Gain access to', 'sp-news-and-widget' ); ?> <strong><?php esc_html_e('WP News and Scrolling Widgets', 'sp-news-and-widget'); ?></strong></div>
-								<a class="button button-primary wpos-button-full button-orange" href="<?php echo esc_url(WPNW_PLUGIN_LINK_UNLOCK); ?>" target="_blank"><?php esc_html_e('Try Pro For 5 Days Free', 'sp-news-and-widget'); ?></a>
+								<a class="button button-primary wpos-button-full button-orange" href="<?php echo esc_url(WPNW_PLUGIN_LINK_UNLOCK); ?>" target="_blank"><?php esc_html_e('Try Pro with Back Friday Deals', 'sp-news-and-widget'); ?></a>
 							</div><!-- .inside -->
 						</div><!-- #general -->
 					</div><!-- .meta-box-sortables -->
