@@ -43,10 +43,10 @@ class Wpnw_Admin {
 		add_submenu_page( 'edit.php?post_type='.WPNW_POST_TYPE, __( 'How It Works - WP News and Scrolling Widgets', 'sp-news-and-widget' ), __( 'How It Works', 'sp-news-and-widget' ), 'edit_posts', 'wpnw-designs', array( $this, 'wpnw_designs_page' ) );
 
 		// Setting page
-		add_submenu_page( 'edit.php?post_type='.WPNW_POST_TYPE, __( 'Overview - WP News and Scrolling Widgets', 'sp-news-and-widget' ), '<span style="color:#2ECC71">'. __( 'Overview', 'sp-news-and-widget' ).'</span>', 'manage_options', 'wpnw-solutions-features', array( $this, 'wpnw_solutions_features_page' ) );
+		add_submenu_page( 'edit.php?post_type='.WPNW_POST_TYPE, __( 'Overview - WP News and Scrolling Widgets', 'sp-news-and-widget' ), __( 'Overview', 'sp-news-and-widget' ), 'manage_options', 'wpnw-solutions-features', array( $this, 'wpnw_solutions_features_page' ) );
 
 		// Register plugin premium page
-		add_submenu_page( 'edit.php?post_type='.WPNW_POST_TYPE, __( 'Upgrade To PRO - WP News and Scrolling Widgets', 'sp-news-and-widget' ), '<span style="color:#ff2700">'.__( 'Upgrade To PRO – Early Back Friday Deals', 'sp-news-and-widget' ).'</span>', 'manage_options', 'wpnw-premium', array( $this, 'wpnw_premium_page' ) );
+		add_submenu_page( 'edit.php?post_type='.WPNW_POST_TYPE, __( 'Upgrade To PRO - WP News and Scrolling Widgets', 'sp-news-and-widget' ), '<span style="color:#2ECC71">'.__( 'Upgrade To PRO', 'sp-news-and-widget' ).'</span>', 'manage_options', 'wpnw-premium', array( $this, 'wpnw_premium_page' ) );
 	}
 
 	/**

@@ -133,7 +133,7 @@ function wpnw_post_updated_messages( $messages ) {
 		7 => __( 'News saved.', 'sp-news-and-widget' ),
 		8 => sprintf( __( 'News submitted. <a target="_blank" href="%s">Preview News</a>', 'sp-news-and-widget' ), esc_url( add_query_arg( 'preview', 'true', get_permalink( $post_ID ) ) ) ),
 		9 => sprintf( __( 'News scheduled for: <strong>%1$s</strong>. <a target="_blank" href="%2$s">Preview News</a>', 'sp-news-and-widget' ),
-		  date_i18n( 'M j, Y @ G:i', strtotime( $post->post_date ) ), esc_url( get_permalink( $post_ID ) ) ),
+			date_i18n( 'M j, Y @ G:i', strtotime( $post->post_date ) ), esc_url( get_permalink( $post_ID ) ) ),
 		10 => sprintf( __( 'News draft updated. <a target="_blank" href="%s">Preview News</a>', 'sp-news-and-widget' ), esc_url( add_query_arg( 'preview', 'true', get_permalink( $post_ID ) ) ) ),
 	);
 
