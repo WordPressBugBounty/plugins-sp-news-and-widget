@@ -1,9 +1,9 @@
 === WP News and Scrolling Widgets ===
-Contributors: wponlinesupport, anoopranawat, pratik-jain, piyushpatel123, patelketan
+Contributors: essentialplugin
 Tags: wordpress news plugin, main news page scrolling, wordpress vertical news plugin widget, wordpress horizontal news plugin widget, Free scrolling news wordpress plugin,
 Requires at least: 4.0
-Tested up to: 6.7.1
-Stable tag: 5.0.3
+Tested up to: 6.8.1
+Stable tag: 5.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -164,6 +164,9 @@ Use  <code> [sp_news] </code>
 8. Also work with Gutenberg shortcode block.
 
 == Changelog ==
+
+= 5.0.4 (15, May 2025) =
+* [*] Check compatibility with WordPress version 6.8.1
 
 = 5.0.3 (17, January 2025) =
 * [*] Check compatibility with WordPress version 6.7.1

@@ -5,17 +5,17 @@
 * Text Domain: sp-news-and-widget
 * Domain Path: /languages/
 * Description: A simple News and three widgets(static, scrolling and with thumbs) plugin. Also work with Gutenberg shortcode block.
-* Version: 5.0.3
-* Author: WP OnlineSupport, Essential Plugin
-* Author URI: https://www.essentialplugin.com/wordpress-plugin/sp-news-and-scrolling-widgets/
-* Contributors: WP OnlineSupport
+* Version: 5.0.4
+* Author: Essential Plugin
+* Author URI: https://www.essentialplugin.com
+* Contributors: Essential Plugin
 *
 * @author Essential Plugin
 * @package WP News and Scrolling Widgets
 */
 
 if( ! defined( 'WPNW_VERSION' ) ) {
-	define( 'WPNW_VERSION', '5.0.3' ); // Version of plugin
+	define( 'WPNW_VERSION', '5.0.4' ); // Version of plugin
 }
 if( ! defined( 'WPNW_DIR' ) ) {
 	define( 'WPNW_DIR', dirname( __FILE__ ) ); // Plugin dir
@@ -32,23 +32,12 @@ if( ! defined( 'WPNW_CAT' ) ) {
 if( ! defined( 'WPNW_SITE_LINK' ) ) {
 	define('WPNW_SITE_LINK','https://www.essentialplugin.com'); // Plugin link
 }
-
-// if( ! defined( 'WPNW_PLUGIN_BUNDLE_LINK' ) ) {
-// 	define('WPNW_PLUGIN_BUNDLE_LINK','https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=News&utm_campaign=Welcome-Screen'); // Plugin link
-// }
-
-// if( ! defined( 'WPNW_PLUGIN_LINK_UNLOCK' ) ) {
-// 	define('WPNW_PLUGIN_LINK_UNLOCK','https://www.essentialplugin.com/essential-plugin-bundle-pricing/?utm_source=WP&utm_medium=News&utm_campaign=Features-PRO'); // Plugin link
-// }
-
 if( ! defined( 'WPNW_PLUGIN_LINK_UPGRADE' ) ) {
 	define('WPNW_PLUGIN_LINK_UPGRADE','https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=News&utm_campaign=Upgrade-PRO'); // Plugin Check link
 }
-
 if( ! defined( 'WPNW_PLUGIN_BUNDLE_LINK' ) ) {
 	define('WPNW_PLUGIN_BUNDLE_LINK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=News&utm_campaign=Welcome-Screen'); // Plugin link
 }
-
 if( ! defined( 'WPNW_PLUGIN_LINK_UNLOCK' ) ) {
 	define('WPNW_PLUGIN_LINK_UNLOCK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=News&utm_campaign=Features-PRO'); // Plugin link
 }
